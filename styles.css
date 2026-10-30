@@ -571,9 +571,10 @@ input:focus-visible {
 .price-amount { font-family: var(--font-display); font-size: 3rem; font-weight: 800; }
 .price-amount span { font-size: 1.1rem; font-weight: 600; color: rgba(255,255,255,0.7); }
 .price-list { list-style: none; margin-top: 26px; display: flex; flex-direction: column; gap: 12px; }
-.price-list li { display: flex; align-items: center; gap: 10px; font-size: 0.98rem; color: rgba(255,255,255,0.9); }
-.price-list svg { color: var(--lime); flex-shrink: 0; }
+.price-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 0.98rem; color: rgba(255,255,255,0.9); }
+.price-list svg { color: var(--lime); flex-shrink: 0; margin-top: 3px; }
 .price-cta { margin-top: 30px; width: 100%; }
+.price-note { margin-top: 14px; font-size: 0.82rem; line-height: 1.5; color: rgba(255,255,255,0.72); }
 
 .plan-card {
   background: var(--white);
